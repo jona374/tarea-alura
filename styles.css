@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.input-container, .output-container {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    resize: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.buttons-container {
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.output-container textarea {
+    background-color: #f9f9f9;
+}
+
+.output-container label {
+    display: block;
+    margin-bottom: 5px;
+}
